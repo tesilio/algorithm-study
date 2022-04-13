@@ -1,6 +1,3 @@
-// https://programmers.co.kr/learn/courses/30/lessons/92334
-// 신고 결과 받기
-
 function solution(id_list, report, k) {
   const reportSet = [...new Set(report)];
   const idReportingCountMap = id_list.reduce((acc, id) => {
@@ -29,7 +26,3 @@ function solution(id_list, report, k) {
     return count;
   });
 }
-
-/**
- * 비슷한 문제는 다음에 Map을 활용하여 풀어보자
- */
